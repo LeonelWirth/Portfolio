@@ -1,14 +1,18 @@
-import NavBar from "./components/NavBar";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import NavBar from "./components/NavBar/NavBar";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import ProyectContainer from "./components/Proyects/ProyectContainer";
+import StudiesContainer from "./components/Studies/StudiesContainer";
+import { Route, Routes} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
       <Header/>
-      <p> App body </p>
-      <Footer />
+      <ProyectContainer/>
+      <StudiesContainer/>
+      <Footer/>
     </div>
   );
 }

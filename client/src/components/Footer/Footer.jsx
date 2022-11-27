@@ -2,11 +2,13 @@ import './Footer.css'
 
 function Footer() {
     return ( <div  className="Footer">
-        <h2>Contactame</h2>
+        <div className="sub-title">
+            <h2>Contactame</h2>
+        </div>
         <p>E-mail</p>
         <p>Telefono</p>
-        <p>LinkedIn</p>
-        <p>Github</p>
+        <a  href="https://www.linkedin.com/in/leonel-wirth/">LinkedIn</a>
+        <a href="https://github.com/LeonelWirth">Github</a>
     </div> );
 }
 

@@ -3,16 +3,18 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ProyectContainer from "./components/Proyects/ProyectContainer";
 import StudiesContainer from "./components/Studies/StudiesContainer";
-import { Route, Routes} from 'react-router-dom'
+import "./index.css"
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <Header/>
-      <ProyectContainer/>
-      <StudiesContainer/>
-      <Footer/>
+      <div className="blur">
+        <NavBar/>
+        <Header/>
+        <ProyectContainer/>
+        <StudiesContainer/>
+        <Footer/>
+      </div>
     </div>
   );
 }

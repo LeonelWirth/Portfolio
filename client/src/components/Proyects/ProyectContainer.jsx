@@ -1,15 +1,35 @@
 import "./ProyectContainer.css"
+import React from "react";
+import { useState } from "react";
+import Proyect from "./Proyect";
 
 function ProyectContainer() {
-    return ( <div className="ProyectContainer">
-        <h2>Proyectos desarrollados: </h2>
-        <p>Proyect container</p>
-        <p>Proyecto 1</p>
-        <p>Proyecto 2</p>
-        <p>Proyecto 3</p>
-        <p>Proyecto 4</p>
-        <p>Proyecto 5</p>
-    </div> );
+    const [proyect, setProyect] = useState([{
+        title: "Proyecto 1",
+        description: "Soy el proyecto 1"
+    },
+    {
+        title: "Proyecto 2",
+        description: "Soy el proyecto 1"
+    },
+    {
+        title: "Proyecto 3",
+        description: "Soy el proyecto 1"
+    },
+    {
+        title: "Proyecto 4",
+        description: "Soy el proyecto 1"
+    },
+    {
+        title: "Proyecto 5",
+        description: "Soy el proyecto 1"
+    }])
+    return (<div className="ProyectContainer">
+        <div className="sub-title">
+            <h2>Proyectos desarrollados: </h2>
+        </div>
+        {proyect.map((e) => <Proyect title={e.title} description={e.description} />)}
+    </div>);
 }
 
 export default ProyectContainer;

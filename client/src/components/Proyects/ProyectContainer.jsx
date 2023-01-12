@@ -24,11 +24,13 @@ function ProyectContainer() {
         title: "Proyecto 5",
         description: "Soy el proyecto 1"
     }])
-    return (<div className="ProyectContainer">
+    return (<div>
         <div className="sub-title">
             <h2>Proyectos desarrollados: </h2>
         </div>
-        {proyect.map((e) => <Proyect title={e.title} description={e.description} />)}
+        <div className="ProyectContainer">
+            {proyect.map((e) => <Proyect title={e.title} description={e.description} key={Math.random()} />)}
+        </div>
     </div>);
 }
 

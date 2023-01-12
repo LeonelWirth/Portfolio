@@ -9,11 +9,20 @@ function App() {
   return (
     <div className="App">
       <div className="blur">
-        <NavBar/>
-        <Header/>
-        <ProyectContainer/>
-        <StudiesContainer/>
-        <Footer/>
+        <NavBar />
+        <div className="Content">
+          <div className="LateralBar">
+            <p>
+              Soy la barra lateral
+            </p>
+          </div>
+          <div className="Body">
+            <Header />
+            <ProyectContainer />
+            <StudiesContainer />
+          </div>
+        </div>
+        <Footer />
       </div>
     </div>
   );

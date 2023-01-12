@@ -1,25 +1,34 @@
-.App{
-    height: 100vh;    
-} 
+.App {
+    /* height: 100vh; */
+    background-color: #726c6c;
+    background-repeat: repeat;
+}
 
 
-.blur{
+.blur {
     height: 100vh;
     scroll-behavior: smooth;
     height: 100%;
     background-size: 100% 200%;
-    background-image: linear-gradient(
-        -30deg,
-        #5c5c5c 0%,
-        #282828 25%,
-        #2f2f2f 51%,
-        #000000 100%
-    );
+    background-image: linear-gradient(-30deg,
+            #5c5c5c 0%,
+            #282828 25%,
+            #2f2f2f 51%,
+            #726c6c 100%);
+
     /* animation: AnimateBG 20s ease infinite; */
 }
 
-.sub-title{
-    color:aliceblue;
+.sub-title {
+    color: aliceblue;
     font-weight: bold;
     background-color: rgb(53, 52, 52);
+}
+
+.Content {
+    display: flex;
+}
+
+.LateralBar {
+    background-color: bisque;
 }

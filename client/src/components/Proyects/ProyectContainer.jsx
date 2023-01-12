@@ -5,24 +5,20 @@ import Proyect from "./Proyect";
 
 function ProyectContainer() {
     const [proyect, setProyect] = useState([{
-        title: "Proyecto 1",
-        description: "Soy el proyecto 1"
+        title: "Sport Spaces Booking App:",
+        description: "Developed a sport spaces booking app with a web supplier and mobile user framework."
     },
     {
-        title: "Proyecto 2",
-        description: "Soy el proyecto 1"
+        title: "Food Showcase App:",
+        description: "Developed recipes and food catalogue app."
     },
     {
-        title: "Proyecto 3",
-        description: "Soy el proyecto 1"
+        title: "Excel to program objects:",
+        description: "App to transform the information of a client spread sheet into a .csv file to import into a SCADA software (WonderWare)."
     },
     {
-        title: "Proyecto 4",
-        description: "Soy el proyecto 1"
-    },
-    {
-        title: "Proyecto 5",
-        description: "Soy el proyecto 1"
+        title: "Note App",
+        description: "Developed a note app"
     }])
     return (<div>
         <div className="sub-title">

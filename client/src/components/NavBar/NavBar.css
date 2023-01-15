@@ -7,4 +7,12 @@
     color: #CAD2C5;
     font-weight: bold;
     background-color: #2F3E46;
+
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
 }

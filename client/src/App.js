@@ -8,7 +8,7 @@ import "./index.css"
 function App() {
   return (
     <div className="App">
-      <div className="blur">
+      <div>
         <NavBar />
         <div className="Content">
           <div className="LateralBar">

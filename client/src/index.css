@@ -20,20 +20,6 @@ body {
     display: flex;
 }
 
-.LateralBar {
-    background-color: #354F52;
-    width: 5%;
-
-    position: fixed;
-    /* Set the navbar to fixed position */
-    top: 0;
-    padding-top: 3%;
-    /* Position the navbar at the top of the page */
-    height: 100%;
-    /* Full width */
-    display: flex;
-    flex-direction: column;
-}
 
 .Body {
     padding-top: 3%;

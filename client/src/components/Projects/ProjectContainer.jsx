@@ -1,7 +1,7 @@
-import "./ProyectContainer.css"
+import "./ProjectContainer.css"
 import React from "react";
 import { useState } from "react";
-import Proyect from "./Proyect";
+import Proyect from "./Project";
 
 function ProyectContainer() {
     const [proyect, setProyect] = useState([{

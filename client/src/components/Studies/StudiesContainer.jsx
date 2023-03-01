@@ -1,4 +1,5 @@
 import './StudiesContainer.css'
+import '../Projects/ProjectContainer.css'
 import React from 'react';
 import { useState } from 'react';
 import Studies from './Studies';
@@ -24,7 +25,7 @@ function StudiesContainer() {
         <div className='sub-title'>
             <h2>Estudios realizados</h2>
         </div>
-        <div className="StudiesContainer">
+        <div className="ProyectContainer">
             {studie.map((e) => <Studies title={e.title} description={e.description} key={Math.random()} pictures={e.pictures} />)}
             {/* <p>Full Stack Developer</p>
             <p>Ingeniero electrónico</p> */}

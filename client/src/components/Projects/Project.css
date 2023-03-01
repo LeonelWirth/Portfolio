@@ -1,0 +1,12 @@
+.Proyect {
+    border: solid;
+    border-radius: 5px;
+    background-color: #CCD5AE;
+    padding: 10px
+}
+
+.miniature {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}

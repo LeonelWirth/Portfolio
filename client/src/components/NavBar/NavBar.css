@@ -1,18 +1,30 @@
-.NavBar {
+.nav_container {
+    width: 94%;
     display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    align-items: center;
 
-    color: #595959;
-    font-weight: bold;
-    background-color: #2F3E46;
-
+    height: 64px;
     position: fixed;
-    /* Set the navbar to fixed position */
-    top: 0;
+    background-color: #dee4e8;
+    z-index: 10;
 
-    /* Position the navbar at the top of the page */
-    width: 100%;
-    /* Full width */
+    padding-left: 3%;
+    padding-right: 3%;
+
+    justify-content: space-between;
+
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    text-decoration: none;
+}
+
+.nav_links {
+    justify-content: flex-end;
+    align-items: center;
+
+    /* color: black; */
+    font-weight: 750;
+    color: #7e57c2;
+    cursor: pointer;
+    text-decoration: none;
 }

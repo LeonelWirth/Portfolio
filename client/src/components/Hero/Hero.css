@@ -1,0 +1,65 @@
+.hero {
+    height: 264px;
+    position: relative;
+    background-color: #dee4e8;
+    position: fixed;
+    width: 100%;
+    padding-top: 64px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQMAAAD58POIAAAABlBMVEUAAAB4eHhGvYrXAAAAAXRSTlMAQObYZgAAABxJREFUeAFjGMZgFIyCUWD/ZygLDF8wCkbBKAAAyLQOxRgzjMsAAAAASUVORK5CYII=);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: 10px;
+    background-repeat: repeat;
+    background-position: 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: -.5px;
+
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+
+    font-weight: 300;
+    font-size: 34px;
+    letter-spacing: .25px;
+    margin: 16px 0 0;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 612.5px;
+
+}
+
+span {
+    color: #3f51b5;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: -.5px;
+}

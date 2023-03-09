@@ -3,13 +3,15 @@ import "./NavBar.css";
 
 
 function NavBar() {
-    return ( <div className="NavBar">
-        <p> Home </p>
-        <p> Proyectos </p>
-        <p> Educación </p>
-        <p> Acerca de </p>
-        <p> Contacto </p>
-    </div> );
+    return (<div className="nav_container">
+        <div>
+            <a className='nav_links' href="/"> {"<LEONEL />"}</a>
+        </div>
+        <div>
+            <a className='nav_links' href="/"> {"PROJECTS"}</a>
+            {/* <a className='nav_links' href="/"> {"BLOG"}</a> */}
+        </div>
+    </div>);
 }
 
 export default NavBar;

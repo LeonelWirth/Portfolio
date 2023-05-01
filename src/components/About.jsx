@@ -1,7 +1,7 @@
 import React from "react";
-
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
+
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -47,16 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled Engineer & software developer with experience in JavaScript and
-        Python, and expertise in frameworks like React, Redux and Node.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a Full-Stack Developer and Electronics Engineer from Argentina with 5 years of experience in programming code in different languages and experience in the Research and Development area. My expertise lies in Javascript (React, Redux, Node Js, Express), Python (Pandas, Jupyter Notebook), SQL (PostgreSQL, Sequelize), C, C++, MATLAB, Simulink, and microcontrollers (Arduino, PIC, STM32 & Espressif), as well as Git.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
+        {services.map((service, index) => {
+          // console.log(service.title)
+          return <ServiceCard key={service.title} index={index} {...service} />
+        })}
       </div>
     </>
   );
